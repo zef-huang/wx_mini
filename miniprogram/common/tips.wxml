@@ -3,3 +3,5 @@
     PS: 该 [{{pageName}}] 页面为测试页面
   </view>
 </template>
+
+<view>非模板的 wxml 代码</view>

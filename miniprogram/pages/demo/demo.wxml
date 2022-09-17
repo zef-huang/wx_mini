@@ -1,3 +1,4 @@
+<!-- import 是用于引入 template -->
 <import src="../../common/tips.wxml" />
 
 <view class="buttun" bindtap="handleClick">确定</view>
@@ -16,3 +17,6 @@
 
 <!-- 模板使用 -->
 <template is="test_display" data="{{pageName: '广告统计'}}"></template>
+
+<!-- include 是引入非 template 之外的代码 -->
+<include src="../../common/tips.wxml" />
