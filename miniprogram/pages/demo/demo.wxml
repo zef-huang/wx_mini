@@ -26,3 +26,10 @@
   <view class="scrollItem scrollOne">001</view>
   <view class="scrollItem scrollTwo">002</view>
 </scroll-view>
+
+<view style="white-space:pre-wrap">{{'\n'}}</view>
+
+<scroll-view class="scroll-view-for-height" scroll-y="{{true}}">
+  <view class="scrollOne">001</view>
+  <view class="scrollTwo">002</view>
+</scroll-view>
