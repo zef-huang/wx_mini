@@ -1,1 +1,7 @@
 <view class="buttun" bindtap="handleClick">确定</view>
+
+<!-- 换行 -->
+<view style="white-space:pre-wrap"> </view>
+
+<!-- for 循环 -->
+<view wx:for="{{arr}}"> {{item}} </view>
