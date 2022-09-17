@@ -3,5 +3,8 @@
 <!-- 换行 -->
 <view style="white-space:pre-wrap"> </view>
 
-<!-- for 循环 -->
+<!-- for 循环， wx:key 用不重复的键，提高效率用-->
+<!-- 遍历字符串数组 -->
 <view wx:for="{{arr}}"> {{item}} </view>
+<!-- 遍历对象数组 -->
+<view wx:for="{{objArr}}"> {{item.name}} - {{item.age}} </view>
