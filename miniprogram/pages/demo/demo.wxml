@@ -1,0 +1,1 @@
+<view class="buttun" bindtap="handleClick">确定</view>
