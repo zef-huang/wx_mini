@@ -2,7 +2,8 @@
 Page({
     data: {
       arr: ["beijing", "shanghai", "guangzhou", "shenzhen"],
-      objArr: [{name: "zjl", age: 12}]
+      objArr: [{name: "zjl", age: 12}],
+      obj: {name: "zjl", age: 12}
     },
 
     handleClick () {

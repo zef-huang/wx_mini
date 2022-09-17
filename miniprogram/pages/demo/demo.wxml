@@ -3,8 +3,11 @@
 <!-- 换行 -->
 <view style="white-space:pre-wrap"> </view>
 
-<!-- for 循环， wx:key 用不重复的键，提高效率用-->
+<!-- for 循环， wx:key 用不重复的键，提高效率用， {{item}} 表示元素， {{index}} 表示索引，从 0 开始-->
 <!-- 遍历字符串数组 -->
 <view wx:for="{{arr}}"> {{item}} </view>
 <!-- 遍历对象数组 -->
 <view wx:for="{{objArr}}"> {{item.name}} - {{item.age}} </view>
+
+<!-- 遍历对象, index 起别名。 相当于 python 中的 key -->
+<view wx:for="{{obj}}" wx:for-index="key"> {{key}}-{{item}}</view>
