@@ -5,3 +5,21 @@
   background-color: yellowgreen;
   text-align: center;
 }
+
+scroll-view {
+  white-space: nowrap;
+}
+
+.scrollItem {
+  width: 300px;
+  height: 50px;
+  display: inline-block;
+}
+
+.scrollOne {
+  background-color: yellowgreen;
+}
+
+.scrollTwo {
+  background-color: pink;
+}

@@ -20,3 +20,9 @@
 
 <!-- include 是引入非 template 之外的代码 -->
 <include src="/common/tips.wxml" />
+
+<!-- scroll-view -->
+<scroll-view scroll-x="{{true}}">
+  <view class="scrollItem scrollOne">001</view>
+  <view class="scrollItem scrollTwo">002</view>
+</scroll-view>
