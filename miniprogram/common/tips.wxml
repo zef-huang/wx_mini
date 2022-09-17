@@ -1,5 +1,5 @@
 <template name="test_display">
   <view>
-    PS: 该页面为测试页面
+    PS: 该 [{{pageName}}] 页面为测试页面
   </view>
 </template>

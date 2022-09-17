@@ -15,4 +15,4 @@
 <view wx:for="{{obj}}" wx:for-index="key"> {{key}}-{{item}}</view>
 
 <!-- 模板使用 -->
-<template is="test_display"></template>
+<template is="test_display" data="{{pageName: '广告统计'}}"></template>
