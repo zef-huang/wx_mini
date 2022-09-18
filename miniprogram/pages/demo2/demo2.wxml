@@ -28,5 +28,19 @@
 <form bindsubmit="submmitUser">
   <view>姓名：</view>
   <input name="username"></input>
+
+  <!-- 单选框 -->
+  <radio-group>性别
+    <radio value="man" checked="">男</radio>
+    <radio value="women">女</radio>
+  </radio-group>
+
+  <!-- 复选框 -->
+  <checkbox-group>爱好
+    <checkbox value="program">编程</checkbox>
+    <checkbox value="swiming">游泳</checkbox>
+    <checkbox value="romantic">恋爱</checkbox>
+  </checkbox-group>
+  
   <button type="primary" form-type="submit">提交</button>
 </form>
