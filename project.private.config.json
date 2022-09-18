@@ -16,7 +16,7 @@
         },
         {
           "name": "绑定事件学习",
-          "pathName": "pages/demo/demo",
+          "pathName": "pages/demo2/demo2",
           "query": "",
           "launchMode": "default",
           "scene": null
@@ -24,5 +24,5 @@
       ]
     }
   },
-  "libVersion": "2.10.4"
+  "libVersion": "2.7.7"
 }
