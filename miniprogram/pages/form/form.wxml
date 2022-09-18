@@ -1,0 +1,34 @@
+<!-- 提交表单 -->
+<form bindsubmit="submmitUser">
+  <view class='item'>
+    <label>姓名：</label>
+    <input name='username'></input>
+  </view>
+    
+  <!-- 单选框 -->
+  <view class='item'>
+    <label>性别</label>
+    <radio-group  name='gender'>
+      <radio value="man" checked="">男</radio>
+      <radio value="women">女</radio>
+    </radio-group>
+  </view>
+
+  <view class="item">
+  <label>爱好</label>
+    <!-- 复选框 -->
+    <checkbox-group  name='hobby'>
+      <checkbox value="program">编程</checkbox>
+      <checkbox value="swiming">游泳</checkbox>
+      <checkbox value="romantic">恋爱</checkbox>
+    </checkbox-group>
+  </view>
+
+  <view class="item">
+    <label>出生：</label>
+      <!-- 日期选择器 -->
+    <picker mode="date" bindchange="bornDateHandle"  name='birthday123'>出生: {{bornDate}}</picker>
+  </view>
+  
+  <button type="primary" form-type="submit">提交</button>
+</form>

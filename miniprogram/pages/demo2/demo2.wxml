@@ -34,12 +34,16 @@
     <radio value="women">女</radio>
   </radio-group>
 
+<view>
+<label></label>
   <!-- 复选框 -->
   <checkbox-group>爱好
     <checkbox value="program">编程</checkbox>
     <checkbox value="swiming">游泳</checkbox>
     <checkbox value="romantic">恋爱</checkbox>
   </checkbox-group>
+</view>
+
 
   <!-- 日期选择器 -->
 <picker mode="date" bindchange="bornDateHandle">出生：{{bornDate}}</picker>

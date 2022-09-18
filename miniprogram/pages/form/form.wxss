@@ -1,0 +1,9 @@
+input {
+  border: solid black;
+}
+
+
+.item {
+  display: flex;
+  margin: 15px;
+}
