@@ -23,7 +23,6 @@
 
 
 <view style="white-space: pre-wrap;">{{'\n'}}</view>
-<view style="white-space: pre-wrap;">{{'\n'}}</view>
 <!-- 提交表单 -->
 <form bindsubmit="submmitUser">
   <view>姓名：</view>
@@ -41,6 +40,9 @@
     <checkbox value="swiming">游泳</checkbox>
     <checkbox value="romantic">恋爱</checkbox>
   </checkbox-group>
+
+  <!-- 日期选择器 -->
+<picker mode="date" bindchange="bornDateHandle">出生：{{bornDate}}</picker>
   
   <button type="primary" form-type="submit">提交</button>
 </form>
