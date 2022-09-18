@@ -1,3 +1,6 @@
 <icon type="success" size="32"></icon>
 
 <progress percent="89" show-info="{{true}}" active="{{true}}"></progress>
+
+<!-- 富文本：包含 html 标签就是富文本 -->
+<rich-text nodes="<div>html   标签</div>" space="ensp"></rich-text>
