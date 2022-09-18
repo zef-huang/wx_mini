@@ -6,6 +6,22 @@
     "pages/demo2/demo2",
     "pages/form/form"
   ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/form/form",
+        "iconPath": "/image/huge.jpg",
+        "selectedIconPath": "/image/huge.jpg",
+        "text": "用户表"
+      },
+      {
+        "pagePath": "pages/demo2/demo2",
+        "iconPath": "/image/lyf.jpg",
+        "selectedIconPath": "/image/lyf.jpg",
+        "text": "用户表"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
