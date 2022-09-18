@@ -33,3 +33,16 @@
   <view class="scrollOne">001</view>
   <view class="scrollTwo">002</view>
 </scroll-view>
+
+<!-- 轮播图 -->
+<swiper indicator-dots="{{true}}">
+  <swiper-item>
+    <image src="/image/cp.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/image/lyf.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/image/huge.jpg"></image>
+  </swiper-item>
+</swiper>

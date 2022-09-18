@@ -27,3 +27,7 @@ scroll-view {
 .scroll-view-for-height {
   height: 20px;
 }
+
+swiper {
+  height: 320px;
+}
