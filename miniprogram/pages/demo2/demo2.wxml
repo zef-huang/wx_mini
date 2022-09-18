@@ -4,3 +4,16 @@
 
 <!-- 富文本：包含 html 标签就是富文本 -->
 <rich-text nodes="<div>html   标签</div>" space="ensp"></rich-text>
+
+
+<button type="primary" size="mini">确定</button>
+<!-- 客服按钮 -->
+<button open-type="contact" type="primary">联系客服</button>
+
+<!-- 分享按钮 -->
+<button open-type="share" type="primary">分享</button>
+
+<view style="white-space: pre-wrap;">{{'\n'}}</view>
+
+<!-- 设置按钮 -->
+<button open-type="openSetting" type="primary">打开设置</button>
