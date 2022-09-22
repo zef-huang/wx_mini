@@ -32,3 +32,8 @@
   
   <button type="primary" form-type="submit">提交</button>
 </form>
+
+
+<view wx:if="{{score > 90}}"> A </view>
+<view wx:elif="{{score > 80}}"> B </view>
+<view wx:else> C </view>

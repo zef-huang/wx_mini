@@ -1,4 +1,7 @@
 Page({
+    data: {
+        score: 90
+    },
   submmitUser (e) {
     console.log(e)
     wx.showToast({
